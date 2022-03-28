@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="D:\Kampus\Semester-4\Pemrograman Web\Praktikum-2-202310015\assets\css\registerstyle.css">
+</head>
+<body>
+    <div id="register">
+        <h1>Register</h1>
+    <form action="" method="post" target="D:\Kampus\Semester-4\Pemrograman Web\Praktikum-2-202310015\login.html">
+        <div class="box">
+            <label>NPM :</label><br>
+            <input type="text" name="NPM" value="" placeholder="Type your NPM"><br><br>
+            <label >Fullname :</label><br>
+            <input type="text" name="Fullname" value="" placeholder="Type your fullname"><br><br>
+            <label>Email :</label><br>
+            <input type="email" name="Email" value="" placeholder="Type your email"><br><br>
+            <label>Password :</label><br>
+            <input type="password" name="Password" value="" placeholder="Type your password"><br><br>
+            <label>Place Birth :</label><br>
+            <input type="text" name="Placebirth" value="" placeholder="Type your place of birth"><br><br>
+            <label>Birthdate :</label><br>
+            <input type="date" name="Birthdate" value=""><br><br>
+            <label>Gender :</label><br>
+            <input type="radio" name="Gender" value="M">Male
+            <input type="radio" name="Gender" value="F">Female <br><br> 
+            <label>Address :</label><br>
+            <textarea name="Address" rows="10" cols="30"> Type your address
+            </textarea>
+        </div>
+        <div class="btn-group">
+            <button type="button" onclick="window.location.replace('login.html')">Close</button>
+            <button type="submit" class="btn-blue">Save</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

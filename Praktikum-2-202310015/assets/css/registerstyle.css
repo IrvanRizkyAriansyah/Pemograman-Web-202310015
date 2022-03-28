@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../media/RegisterBackground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+#register {
+    background-color: white;
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid white;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#register > h1 {
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.box{
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+
+.box > input {
+    margin-top: 5px ;
+    width: 100%;
+}
+
+.box > input[type = radio] {
+    width: auto;
+}
+
+.btn-group {
+    text-align: center; 
+    padding-top: 10px;
+}
+
+.btn-group > button {
+    padding: 10px 15px;
+    margin-right: 5px;
+}
+
+.btn-blue{
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+}
